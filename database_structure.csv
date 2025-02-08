@@ -1,0 +1,2066 @@
+"column_name","data_type","is_nullable","column_default"
+"local_id","oid","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"typsubscript","regproc","NO",NULL
+"relpersistence","""char""","NO",NULL
+"character_set_schema","name","YES",NULL
+"grantor","name","YES",NULL
+"table_catalog","name","YES",NULL
+"indislive","boolean","NO",NULL
+"increment","character varying","YES",NULL
+"relname","name","YES",NULL
+"authorization_identifier","name","YES",NULL
+"atttypid","oid","NO",NULL
+"label","text","NO",NULL
+"is_nullable","character varying","YES",NULL
+"specific_name","name","YES",NULL
+"collation_schema","name","YES",NULL
+"attnotnull","boolean","NO",NULL
+"datminmxid","xid","NO",NULL
+"amprocnum","smallint","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"reltype","oid","NO",NULL
+"domain_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"indexrelid","oid","YES",NULL
+"udt_schema","name","YES",NULL
+"objid","oid","YES",NULL
+"post_vote_hk","bytea","NO",NULL
+"constraint_name","name","YES",NULL
+"defaclacl","ARRAY","NO",NULL
+"client_port","integer","YES",NULL
+"cycle_option","character varying","YES",NULL
+"statement","text","YES",NULL
+"version","text","YES",NULL
+"data","bytea","NO",NULL
+"badge_business_key","integer","NO",NULL
+"most_common_elems","anyarray","YES",NULL
+"oid","oid","NO",NULL
+"is_identity","character varying","YES",NULL
+"castmethod","""char""","NO",NULL
+"enumtypid","oid","NO",NULL
+"supported_value","integer","YES",NULL
+"generation_expression","character varying","YES",NULL
+"is_supported","character varying","YES",NULL
+"indexrelid","oid","YES",NULL
+"character_set_schema","name","YES",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"datfrozenxid","xid","NO",NULL
+"privilege_type","character varying","YES",NULL
+"statistics_schemaname","name","YES",NULL
+"is_trigger_updatable","character varying","YES",NULL
+"schemaname","name","YES",NULL
+"lockers_total","bigint","YES",NULL
+"ev_action","pg_node_tree","NO",NULL
+"refclassid","oid","NO",NULL
+"to_sql_specific_schema","name","YES",NULL
+"indexrelid","oid","YES",NULL
+"interval_type","character varying","YES",NULL
+"unique_constraint_catalog","name","YES",NULL
+"udt_schema","name","YES",NULL
+"atthasmissing","boolean","NO",NULL
+"datetime_precision","integer","YES",NULL
+"constraint_name","name","YES",NULL
+"tag_hk","bytea","NO",NULL
+"seqcycle","boolean","NO",NULL
+"relnamespace","oid","NO",NULL
+"last_autovacuum","timestamp with time zone","YES",NULL
+"routine_catalog","name","YES",NULL
+"routine_catalog","name","YES",NULL
+"provider","text","NO",NULL
+"conninfo","text","YES",NULL
+"attstattarget","integer","NO",NULL
+"relhasindex","boolean","NO",NULL
+"locktype","text","YES",NULL
+"foreign_data_wrapper_name","name","YES",NULL
+"n_distinct","real","YES",NULL
+"heap_blks_read","bigint","YES",NULL
+"sourcefile","text","YES",NULL
+"lomowner","oid","NO",NULL
+"ispopulated","boolean","YES",NULL
+"constraint_name","name","YES",NULL
+"identity_generation","character varying","YES",NULL
+"objsubid","integer","NO",NULL
+"relname","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"relname","name","YES",NULL
+"statistics_name","name","YES",NULL
+"polpermissive","boolean","NO",NULL
+"usename","name","YES",NULL
+"comments","character varying","YES",NULL
+"is_verified_by","character varying","YES",NULL
+"numeric_scale","integer","YES",NULL
+"domain_catalog","name","YES",NULL
+"idx_scan","bigint","YES",NULL
+"netmask","text","YES",NULL
+"is_grantable","character varying","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"srvacl","ARRAY","YES",NULL
+"character_set_schema","name","YES",NULL
+"typsend","regproc","NO",NULL
+"indexprs","pg_node_tree","YES",NULL
+"tgattr","ARRAY","NO",NULL
+"idx_scan","bigint","YES",NULL
+"cipher","text","YES",NULL
+"specific_name","name","YES",NULL
+"elem_count_histogram","ARRAY","YES",NULL
+"scope_catalog","name","YES",NULL
+"constraint_schema","name","YES",NULL
+"user_defined_type_catalog","name","YES",NULL
+"phase","text","YES",NULL
+"constraint_name","name","YES",NULL
+"schema_name","name","YES",NULL
+"failed_count","bigint","YES",NULL
+"evtowner","oid","NO",NULL
+"user_defined_type_schema","name","YES",NULL
+"hasindexes","boolean","YES",NULL
+"grantor","oid","NO",NULL
+"grantee","name","YES",NULL
+"relid","oid","YES",NULL
+"scope_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"oid","oid","NO",NULL
+"with_hierarchy","character varying","YES",NULL
+"n_ins_since_vacuum","bigint","YES",NULL
+"udt_catalog","name","YES",NULL
+"srvoptions","ARRAY","YES",NULL
+"specific_catalog","name","YES",NULL
+"commentcount","integer","YES",NULL
+"label","text","NO",NULL
+"aggfnoid","regproc","NO",NULL
+"tmplnamespace","oid","NO",NULL
+"schemaname","name","YES",NULL
+"datid","oid","YES",NULL
+"proargmodes","ARRAY","YES",NULL
+"relname","name","YES",NULL
+"usebypassrls","boolean","YES",NULL
+"pending_restart","boolean","YES",NULL
+"oid","oid","NO",NULL
+"slot_name","name","YES",NULL
+"rolsuper","boolean","NO",NULL
+"active_time","double precision","YES",NULL
+"character_set_schema","name","YES",NULL
+"aggminitval","text","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"oid","oid","YES",NULL
+"generic_plans","bigint","YES",NULL
+"collation_name","name","YES",NULL
+"specific_schema","name","YES",NULL
+"relname","name","YES",NULL
+"vote_hk","bytea","NO",NULL
+"autovacuum_count","bigint","YES",NULL
+"most_common_vals","anyarray","YES",NULL
+"object_name","name","YES",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"name","text","YES",NULL
+"source","character varying","NO",NULL
+"spcoptions","ARRAY","YES",NULL
+"contypid","oid","NO",NULL
+"interval_type","character varying","YES",NULL
+"action_condition","character varying","YES",NULL
+"seqcache","bigint","NO",NULL
+"post_hk","bytea","NO",NULL
+"routine_schema","name","YES",NULL
+"attribute_name","name","YES",NULL
+"table_schema","name","YES",NULL
+"objsubid","integer","NO",NULL
+"stakind3","smallint","NO",NULL
+"total_bytes","bigint","YES",NULL
+"objoid","oid","NO",NULL
+"oprright","oid","NO",NULL
+"n_mod_since_analyze","bigint","YES",NULL
+"policyname","name","YES",NULL
+"tgqual","pg_node_tree","YES",NULL
+"pid","integer","YES",NULL
+"tuples_processed","bigint","YES",NULL
+"result_cast_dtd_identifier","name","YES",NULL
+"collation_name","name","YES",NULL
+"numeric_precision","integer","YES",NULL
+"phase","text","YES",NULL
+"source","character varying","NO",NULL
+"ev_qual","pg_node_tree","NO",NULL
+"lanname","name","NO",NULL
+"rolinherit","boolean","NO",NULL
+"is_insertable_into","character varying","YES",NULL
+"trftosql","regproc","NO",NULL
+"indoption","ARRAY","NO",NULL
+"heap_blks_total","bigint","YES",NULL
+"seq_scan","bigint","YES",NULL
+"scope_schema","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"typreceive","regproc","NO",NULL
+"datid","oid","YES",NULL
+"datcollate","name","NO",NULL
+"tmplinit","regproc","NO",NULL
+"buffers_checkpoint","bigint","YES",NULL
+"srvid","oid","YES",NULL
+"udt_schema","name","YES",NULL
+"udt_name","name","YES",NULL
+"collprovider","""char""","NO",NULL
+"oid","oid","NO",NULL
+"wal_fpi","bigint","YES",NULL
+"typname","name","NO",NULL
+"is_supported","character varying","YES",NULL
+"xmin","xid","YES",NULL
+"indrelid","oid","NO",NULL
+"prosupport","regproc","NO",NULL
+"admin_option","boolean","NO",NULL
+"authorization_identifier","name","YES",NULL
+"tup_fetched","bigint","YES",NULL
+"maximum_cardinality","integer","YES",NULL
+"backend_start","timestamp with time zone","YES",NULL
+"last_archived_time","timestamp with time zone","YES",NULL
+"evtevent","name","NO",NULL
+"collation_name","name","YES",NULL
+"aggmtransfn","regproc","NO",NULL
+"check_clause","character varying","YES",NULL
+"scope_name","name","YES",NULL
+"udt_name","name","YES",NULL
+"trigger_catalog","name","YES",NULL
+"foreign_data_wrapper_language","character varying","YES",NULL
+"prrelid","oid","NO",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"indexrelname","name","YES",NULL
+"permissive","text","YES",NULL
+"foreign_data_wrapper_catalog","name","YES",NULL
+"oid","oid","NO",NULL
+"scope_schema","name","YES",NULL
+"trusted","boolean","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"conppeqop","ARRAY","YES",NULL
+"table_catalog","name","YES",NULL
+"objid","oid","NO",NULL
+"name","text","YES",NULL
+"routine_schema","name","YES",NULL
+"udt_name","name","YES",NULL
+"usesysid","oid","YES",NULL
+"last_vacuum","timestamp with time zone","YES",NULL
+"domain_name","name","YES",NULL
+"constraint_catalog","name","YES",NULL
+"data_type","character varying","YES",NULL
+"pid","integer","YES",NULL
+"received_lsn","pg_lsn","YES",NULL
+"stanumbers1","ARRAY","YES",NULL
+"oid","oid","NO",NULL
+"character_octet_length","integer","YES",NULL
+"collation_catalog","name","YES",NULL
+"seqno","integer","YES",NULL
+"ext_stats_computed","bigint","YES",NULL
+"grantee","name","YES",NULL
+"starelid","oid","NO",NULL
+"object_type","character varying","YES",NULL
+"object_type","character varying","YES",NULL
+"min_value","bigint","YES",NULL
+"tidx_blks_read","bigint","YES",NULL
+"seq_scan","bigint","YES",NULL
+"numeric_precision","integer","YES",NULL
+"module_name","name","YES",NULL
+"conparentid","oid","NO",NULL
+"numeric_precision","integer","YES",NULL
+"usesuper","boolean","YES",NULL
+"oid","oid","NO",NULL
+"sessions_killed","bigint","YES",NULL
+"to_sql_specific_name","name","YES",NULL
+"stavalues5","anyarray","YES",NULL
+"action_orientation","character varying","YES",NULL
+"tablename","name","YES",NULL
+"sequence_catalog","name","YES",NULL
+"probin","text","YES",NULL
+"character_set_name","name","YES",NULL
+"datetime_precision","integer","YES",NULL
+"title","character varying","YES",NULL
+"oid","oid","NO",NULL
+"authorization_identifier","name","YES",NULL
+"setdatabase","oid","NO",NULL
+"last_analyze","timestamp with time zone","YES",NULL
+"dtd_identifier","name","YES",NULL
+"stxstattarget","integer","NO",NULL
+"name","text","YES",NULL
+"specific_name","name","YES",NULL
+"schemaname","name","YES",NULL
+"oprcom","oid","NO",NULL
+"maximum_cardinality","integer","YES",NULL
+"label","text","YES",NULL
+"as_locator","character varying","YES",NULL
+"object_schema","name","YES",NULL
+"specific_schema","name","YES",NULL
+"attisdropped","boolean","NO",NULL
+"collation_catalog","name","YES",NULL
+"domain_schema","name","YES",NULL
+"stakind5","smallint","NO",NULL
+"object_name","name","YES",NULL
+"is_final","character varying","YES",NULL
+"action_timing","character varying","YES",NULL
+"tmplname","name","NO",NULL
+"proargtypes","ARRAY","NO",NULL
+"funcname","name","YES",NULL
+"confrelid","oid","NO",NULL
+"specific_name","name","YES",NULL
+"schemaname","name","YES",NULL
+"blk_write_time","double precision","YES",NULL
+"reltoastrelid","oid","NO",NULL
+"typinput","regproc","NO",NULL
+"indcollation","ARRAY","NO",NULL
+"lanispl","boolean","NO",NULL
+"rolname","name","NO",NULL
+"aggmtransspace","integer","NO",NULL
+"character_set_name","name","YES",NULL
+"comment_business_key","integer","NO",NULL
+"extversion","text","NO",NULL
+"constraint_schema","name","YES",NULL
+"fdwacl","ARRAY","YES",NULL
+"cfgparser","oid","NO",NULL
+"schema_owner","name","YES",NULL
+"oprnegate","oid","NO",NULL
+"member","oid","NO",NULL
+"udt_catalog","name","YES",NULL
+"indnkeyatts","smallint","NO",NULL
+"staop1","oid","NO",NULL
+"amopmethod","oid","NO",NULL
+"relname","name","YES",NULL
+"typowner","oid","NO",NULL
+"wal_buffers_full","bigint","YES",NULL
+"umuser","oid","YES",NULL
+"grantee","name","YES",NULL
+"maximum_cardinality","integer","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"oid","oid","YES",NULL
+"sourceline","integer","YES",NULL
+"state","text","YES",NULL
+"event_object_table","name","YES",NULL
+"stacoll4","oid","NO",NULL
+"specific_catalog","name","YES",NULL
+"tuple","smallint","YES",NULL
+"subbinary","boolean","NO",NULL
+"ordinal_position","integer","YES",NULL
+"last_autovacuum","timestamp with time zone","YES",NULL
+"correlation","real","YES",NULL
+"aggfinalextra","boolean","NO",NULL
+"pubdelete","boolean","NO",NULL
+"privilege_type","character varying","YES",NULL
+"prpubid","oid","NO",NULL
+"tup_deleted","bigint","YES",NULL
+"pid","integer","YES",NULL
+"confkey","ARRAY","YES",NULL
+"is_trigger_insertable_into","character varying","YES",NULL
+"classid","oid","NO",NULL
+"grantee","name","YES",NULL
+"opcdefault","boolean","NO",NULL
+"confirmed_flush_lsn","pg_lsn","YES",NULL
+"proleakproof","boolean","NO",NULL
+"current_locker_pid","bigint","YES",NULL
+"child_tables_done","bigint","YES",NULL
+"relchecks","smallint","NO",NULL
+"usecreatedb","boolean","YES",NULL
+"sql_data_access","character varying","YES",NULL
+"udt_schema","name","YES",NULL
+"collation_schema","name","YES",NULL
+"srvname","name","YES",NULL
+"udt_schema","name","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"routine_type","character varying","YES",NULL
+"seq_scan","bigint","YES",NULL
+"typnamespace","oid","NO",NULL
+"wal_bytes","numeric","YES",NULL
+"indnatts","smallint","NO",NULL
+"idx_scan","bigint","YES",NULL
+"udt_schema","name","YES",NULL
+"rolcanlogin","boolean","YES",NULL
+"stavalues1","anyarray","YES",NULL
+"last_archived_wal","text","YES",NULL
+"roident","oid","NO",NULL
+"default_character_set_catalog","name","YES",NULL
+"evtname","name","NO",NULL
+"attcompression","""char""","NO",NULL
+"tup_updated","bigint","YES",NULL
+"attnames","ARRAY","YES",NULL
+"condefault","boolean","NO",NULL
+"result_cast_char_set_catalog","name","YES",NULL
+"character_repertoire","name","YES",NULL
+"lanowner","oid","NO",NULL
+"aggmfinalfn","regproc","NO",NULL
+"oid","oid","NO",NULL
+"current_child_table_relid","oid","YES",NULL
+"stream_bytes","bigint","YES",NULL
+"partcollation","ARRAY","NO",NULL
+"calls","bigint","YES",NULL
+"restart_lsn","pg_lsn","YES",NULL
+"indisreplident","boolean","NO",NULL
+"prosecdef","boolean","NO",NULL
+"typelem","oid","NO",NULL
+"collctype","name","NO",NULL
+"enumsortorder","real","NO",NULL
+"sizing_name","character varying","YES",NULL
+"feature_name","character varying","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"character_octet_length","integer","YES",NULL
+"attfdwoptions","ARRAY","YES",NULL
+"partexprs","pg_node_tree","YES",NULL
+"wait_event_type","text","YES",NULL
+"total_txns","bigint","YES",NULL
+"prolang","oid","NO",NULL
+"database","name","YES",NULL
+"tablename","name","YES",NULL
+"type_udt_schema","name","YES",NULL
+"character_set_name","name","YES",NULL
+"text","character varying","YES",NULL
+"indexrelid","oid","YES",NULL
+"xact_rollback","bigint","YES",NULL
+"objoid","oid","NO",NULL
+"idx_blks_read","bigint","YES",NULL
+"conproc","regproc","NO",NULL
+"aggfinalfn","regproc","NO",NULL
+"interval_precision","integer","YES",NULL
+"character_octet_length","integer","YES",NULL
+"backup_streamed","bigint","YES",NULL
+"is_holdable","boolean","YES",NULL
+"table_catalog","name","YES",NULL
+"tgtype","smallint","NO",NULL
+"n_ins_since_vacuum","bigint","YES",NULL
+"ssl","boolean","YES",NULL
+"indexrelname","name","YES",NULL
+"pid","integer","YES",NULL
+"pageno","integer","NO",NULL
+"rngcanonical","regproc","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"toast_blks_read","bigint","YES",NULL
+"datconnlimit","integer","NO",NULL
+"buffers_backend_fsync","bigint","YES",NULL
+"table_name","name","YES",NULL
+"schemaname","name","YES",NULL
+"module_catalog","name","YES",NULL
+"latest_end_time","timestamp with time zone","YES",NULL
+"attgenerated","""char""","NO",NULL
+"dtd_identifier","name","YES",NULL
+"opcintype","oid","NO",NULL
+"phase","text","YES",NULL
+"relname","name","YES",NULL
+"schemaname","name","YES",NULL
+"name","text","YES",NULL
+"pubtruncate","boolean","NO",NULL
+"udt_name","name","YES",NULL
+"specific_catalog","name","YES",NULL
+"minimum_value","character varying","YES",NULL
+"constraint_schema","name","YES",NULL
+"query","text","YES",NULL
+"relname","name","YES",NULL
+"virtualtransaction","text","YES",NULL
+"last_autoanalyze","timestamp with time zone","YES",NULL
+"extra_desc","text","YES",NULL
+"interval_type","character varying","YES",NULL
+"oid","oid","NO",NULL
+"phase","text","YES",NULL
+"authorization_identifier","name","YES",NULL
+"post_post_hk","bytea","NO",NULL
+"schemaname","name","YES",NULL
+"comment","text","YES",NULL
+"autovacuum_count","bigint","YES",NULL
+"attname","name","NO",NULL
+"state","text","YES",NULL
+"oid","oid","NO",NULL
+"specific_schema","name","YES",NULL
+"flushed_lsn","pg_lsn","YES",NULL
+"collation_name","name","YES",NULL
+"collation_schema","name","YES",NULL
+"result_cast_type_udt_schema","name","YES",NULL
+"amopopr","oid","NO",NULL
+"histogram_bounds","anyarray","YES",NULL
+"source","character varying","NO",NULL
+"n_dead_tup","bigint","YES",NULL
+"column_name","name","YES",NULL
+"feature_id","character varying","YES",NULL
+"oid","oid","NO",NULL
+"is_binary","boolean","YES",NULL
+"constraint_name","name","YES",NULL
+"prstoken","regproc","NO",NULL
+"backup_total","bigint","YES",NULL
+"objid","oid","NO",NULL
+"confl_snapshot","bigint","YES",NULL
+"oid","oid","NO",NULL
+"checkpoints_timed","bigint","YES",NULL
+"oid","oid","NO",NULL
+"score","integer","YES",NULL
+"attname","name","YES",NULL
+"websiteurl","character varying","YES",NULL
+"relname","name","YES",NULL
+"enumlabel","name","NO",NULL
+"table_name","name","YES",NULL
+"sequence_catalog","name","YES",NULL
+"pad_attribute","character varying","YES",NULL
+"classoid","oid","NO",NULL
+"is_insertable_into","character varying","YES",NULL
+"relnatts","smallint","NO",NULL
+"stawidth","integer","NO",NULL
+"used_bytes","bigint","YES",NULL
+"type_udt_catalog","name","YES",NULL
+"provider","text","YES",NULL
+"oprkind","""char""","NO",NULL
+"lomacl","ARRAY","YES",NULL
+"command","text","YES",NULL
+"wikipostid","integer","YES",NULL
+"table_catalog","name","YES",NULL
+"constraint_schema","name","YES",NULL
+"subid","oid","YES",NULL
+"specific_catalog","name","YES",NULL
+"tags","character varying","YES",NULL
+"schemaname","name","YES",NULL
+"name","name","YES",NULL
+"sequence_schema","name","YES",NULL
+"relname","name","YES",NULL
+"blks_written","bigint","YES",NULL
+"table_catalog","name","YES",NULL
+"blks_read","bigint","YES",NULL
+"foreign_data_wrapper_catalog","name","YES",NULL
+"oid","oid","YES",NULL
+"condeferrable","boolean","NO",NULL
+"relid","oid","YES",NULL
+"constraint_schema","name","YES",NULL
+"numeric_scale","integer","YES",NULL
+"post_hk","bytea","NO",NULL
+"event_object_catalog","name","YES",NULL
+"relname","name","NO",NULL
+"result_cast_scope_schema","name","YES",NULL
+"vacuum_count","bigint","YES",NULL
+"null_frac","real","YES",NULL
+"table_catalog","name","YES",NULL
+"reference_type","character varying","YES",NULL
+"external_language","character varying","YES",NULL
+"prsend","regproc","NO",NULL
+"name","name","YES",NULL
+"dictname","name","NO",NULL
+"conname","name","NO",NULL
+"result_cast_interval_type","character varying","YES",NULL
+"schema_level_routine","character varying","YES",NULL
+"replay_lsn","pg_lsn","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"useconfig","ARRAY","YES",NULL
+"client_serial","numeric","YES",NULL
+"foreign_table_schema","name","YES",NULL
+"pid","integer","YES",NULL
+"dtd_identifier","name","YES",NULL
+"table_type","character varying","YES",NULL
+"usename","name","YES",NULL
+"confl_bufferpin","bigint","YES",NULL
+"srvfdw","oid","NO",NULL
+"transform_type","character varying","YES",NULL
+"relrowsecurity","boolean","NO",NULL
+"table_schema","name","YES",NULL
+"lastaccessdate","timestamp without time zone","YES",NULL
+"user_business_key","integer","NO",NULL
+"stxdmcv","pg_mcv_list","YES",NULL
+"role_name","name","YES",NULL
+"stadistinct","real","NO",NULL
+"opcmethod","oid","NO",NULL
+"datetime_precision","integer","YES",NULL
+"ordering_routine_name","name","YES",NULL
+"grantor","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"data_type","character varying","YES",NULL
+"schemaname","name","YES",NULL
+"foreign_server_name","name","YES",NULL
+"match_option","character varying","YES",NULL
+"type","text","YES",NULL
+"excerptpostid","integer","YES",NULL
+"oprcanmerge","boolean","NO",NULL
+"blks_exists","bigint","YES",NULL
+"inherited","boolean","YES",NULL
+"dtd_identifier","name","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"udt_name","name","YES",NULL
+"scope_name","name","YES",NULL
+"udt_catalog","name","YES",NULL
+"udt_catalog","name","YES",NULL
+"table_name","name","YES",NULL
+"table_catalog","name","YES",NULL
+"event_object_schema","name","YES",NULL
+"parameter_default","character varying","YES",NULL
+"foreign_table_name","name","YES",NULL
+"condeferred","boolean","NO",NULL
+"allocated_size","bigint","YES",NULL
+"attndims","integer","NO",NULL
+"table_name","name","YES",NULL
+"prepared","timestamp with time zone","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"amopfamily","oid","NO",NULL
+"typstorage","""char""","NO",NULL
+"temporary","boolean","YES",NULL
+"procost","real","NO",NULL
+"view_schema","name","YES",NULL
+"usename","name","YES",NULL
+"foreign_server_name","name","YES",NULL
+"table_catalog","name","YES",NULL
+"srvowner","oid","NO",NULL
+"character_set_name","name","YES",NULL
+"aggcombinefn","regproc","NO",NULL
+"table_name","name","YES",NULL
+"heap_blks_hit","bigint","YES",NULL
+"application_name","text","YES",NULL
+"blks_read","bigint","YES",NULL
+"most_common_vals","ARRAY","YES",NULL
+"typacl","ARRAY","YES",NULL
+"rngsubopc","oid","NO",NULL
+"rolreplication","boolean","NO",NULL
+"idx_blks_read","bigint","YES",NULL
+"tgfoid","oid","NO",NULL
+"deptype","""char""","NO",NULL
+"catalog_name","name","YES",NULL
+"rolbypassrls","boolean","YES",NULL
+"interval_precision","integer","YES",NULL
+"table_schema","name","YES",NULL
+"flush_lag","interval","YES",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"maximum_cardinality","integer","YES",NULL
+"attacl","ARRAY","YES",NULL
+"table_schema","name","YES",NULL
+"n_tup_ins","bigint","YES",NULL
+"index_vacuum_count","bigint","YES",NULL
+"sample_blks_total","bigint","YES",NULL
+"size","bigint","YES",NULL
+"user_hk","bytea","NO",NULL
+"column_name","name","YES",NULL
+"owner","name","YES",NULL
+"ftoptions","ARRAY","YES",NULL
+"enforced","character varying","YES",NULL
+"column_name","name","YES",NULL
+"column_name","name","YES",NULL
+"cycle","boolean","YES",NULL
+"n_tup_ins","bigint","YES",NULL
+"most_common_val_nulls","ARRAY","YES",NULL
+"classoid","oid","YES",NULL
+"character_octet_length","integer","YES",NULL
+"attname","name","YES",NULL
+"command","text","YES",NULL
+"rolconfig","ARRAY","YES",NULL
+"with_check","text","YES",NULL
+"subpublications","ARRAY","NO",NULL
+"short_desc","text","YES",NULL
+"interval_precision","integer","YES",NULL
+"elem_count_histogram","ARRAY","YES",NULL
+"written_lsn","pg_lsn","YES",NULL
+"relam","oid","NO",NULL
+"result_cast_scope_catalog","name","YES",NULL
+"inhrelid","oid","NO",NULL
+"name","text","YES",NULL
+"collation_schema","name","YES",NULL
+"maximum_cardinality","integer","YES",NULL
+"n_live_tup","bigint","YES",NULL
+"stxddependencies","pg_dependencies","YES",NULL
+"is_deferrable","character varying","YES",NULL
+"event_object_schema","name","YES",NULL
+"option_name","name","YES",NULL
+"initially_deferred","character varying","YES",NULL
+"latest_end_time","timestamp with time zone","YES",NULL
+"view_schema","name","YES",NULL
+"seqstart","bigint","NO",NULL
+"relfilenode","oid","NO",NULL
+"mapdict","oid","NO",NULL
+"schemaname","name","YES",NULL
+"name","character varying","YES",NULL
+"subenabled","boolean","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"tgdeferrable","boolean","NO",NULL
+"foreign_server_name","name","YES",NULL
+"heap_blks_scanned","bigint","YES",NULL
+"virtualxid","text","YES",NULL
+"qual","text","YES",NULL
+"specific_schema","name","YES",NULL
+"max_val","text","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"n_tup_del","bigint","YES",NULL
+"table_name","name","YES",NULL
+"relminmxid","xid","NO",NULL
+"funcname","name","YES",NULL
+"tablespace","name","YES",NULL
+"ordinal_position","integer","YES",NULL
+"relrewrite","oid","NO",NULL
+"grantor","name","YES",NULL
+"is_generated","character varying","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"privtype","""char""","NO",NULL
+"collation_name","name","YES",NULL
+"ftrelid","oid","NO",NULL
+"table_catalog","name","YES",NULL
+"seq_tup_read","bigint","YES",NULL
+"option_value","character varying","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"relid","oid","YES",NULL
+"slot_name","text","YES",NULL
+"ev_type","""char""","NO",NULL
+"enumvals","ARRAY","YES",NULL
+"relid","oid","YES",NULL
+"rolcreatedb","boolean","YES",NULL
+"index_rebuild_count","bigint","YES",NULL
+"analyze_count","bigint","YES",NULL
+"tgconstraint","oid","NO",NULL
+"source","character varying","NO",NULL
+"rolcanlogin","boolean","NO",NULL
+"view_definition","character varying","YES",NULL
+"viewowner","name","YES",NULL
+"tidx_blks_hit","bigint","YES",NULL
+"line_number","integer","YES",NULL
+"relid","oid","YES",NULL
+"datid","oid","YES",NULL
+"nspname","name","NO",NULL
+"statistics_owner","name","YES",NULL
+"partitions_done","bigint","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"implementation_info_name","character varying","YES",NULL
+"backend_type","text","YES",NULL
+"is_grantable","character varying","YES",NULL
+"attribute_udt_catalog","name","YES",NULL
+"collation_schema","name","YES",NULL
+"setting","text","YES",NULL
+"blks_read","bigint","YES",NULL
+"is_dst","boolean","YES",NULL
+"accountid","integer","YES",NULL
+"attcacheoff","integer","NO",NULL
+"error","text","YES",NULL
+"table_schema","name","YES",NULL
+"objsubid","integer","NO",NULL
+"table_schema","name","YES",NULL
+"result_cast_collation_catalog","name","YES",NULL
+"calls","bigint","YES",NULL
+"typisdefined","boolean","NO",NULL
+"indexname","name","YES",NULL
+"toast_blks_read","bigint","YES",NULL
+"indisvalid","boolean","NO",NULL
+"table_schema","name","YES",NULL
+"dtd_identifier","name","YES",NULL
+"pubname","name","NO",NULL
+"update_rule","character varying","YES",NULL
+"stxowner","oid","NO",NULL
+"object_type","character varying","YES",NULL
+"is_instantiable","character varying","YES",NULL
+"is_nullable","character varying","YES",NULL
+"privilege_type","character varying","YES",NULL
+"external_name","character varying","YES",NULL
+"seqincrement","bigint","NO",NULL
+"mapseqno","integer","NO",NULL
+"user_hk","bytea","NO",NULL
+"privilege_type","character varying","YES",NULL
+"deptype","""char""","NO",NULL
+"option_value","character varying","YES",NULL
+"foreign_table_name","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"relname","name","YES",NULL
+"specific_schema","name","YES",NULL
+"relid","oid","YES",NULL
+"udt_catalog","name","YES",NULL
+"group_name","name","YES",NULL
+"schemaname","name","YES",NULL
+"result_cast_datetime_precision","integer","YES",NULL
+"downvotes","integer","YES",NULL
+"specific_schema","name","YES",NULL
+"oid","oid","NO",NULL
+"object_catalog","name","YES",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"evttags","ARRAY","YES",NULL
+"issuer_dn","text","YES",NULL
+"vote_hk","bytea","NO",NULL
+"tuples_done","bigint","YES",NULL
+"definition","text","YES",NULL
+"n_tup_upd","bigint","YES",NULL
+"amname","name","NO",NULL
+"table_name","name","YES",NULL
+"udt_schema","name","YES",NULL
+"oid","oid","NO",NULL
+"autoanalyze_count","bigint","YES",NULL
+"datname","name","YES",NULL
+"extrelocatable","boolean","NO",NULL
+"ev_class","oid","NO",NULL
+"fdwvalidator","oid","NO",NULL
+"character_set_schema","name","YES",NULL
+"n_tup_upd","bigint","YES",NULL
+"error","text","YES",NULL
+"source","character varying","NO",NULL
+"client_hostname","text","YES",NULL
+"relfrozenxid","xid","NO",NULL
+"option_name","name","YES",NULL
+"scope_name","name","YES",NULL
+"avg_width","integer","YES",NULL
+"spill_txns","bigint","YES",NULL
+"partstrat","""char""","NO",NULL
+"user_hk","bytea","NO",NULL
+"viewname","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"tgconstrrelid","oid","NO",NULL
+"sync_state","text","YES",NULL
+"is_deferrable","character varying","YES",NULL
+"sql_path","character varying","YES",NULL
+"nspowner","oid","NO",NULL
+"routine_catalog","name","YES",NULL
+"stacoll1","oid","NO",NULL
+"most_common_elem_freqs","ARRAY","YES",NULL
+"buffers_clean","bigint","YES",NULL
+"integer_value","integer","YES",NULL
+"query_id","bigint","YES",NULL
+"datctype","name","NO",NULL
+"heap_blks_read","bigint","YES",NULL
+"n_tup_del","bigint","YES",NULL
+"character_set_schema","name","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"phase","text","YES",NULL
+"utc_offset","interval","YES",NULL
+"spill_bytes","bigint","YES",NULL
+"is_verified_by","character varying","YES",NULL
+"partdefid","oid","NO",NULL
+"sessions_fatal","bigint","YES",NULL
+"created","timestamp with time zone","YES",NULL
+"character_set_name","name","YES",NULL
+"sessions_abandoned","bigint","YES",NULL
+"coninhcount","integer","NO",NULL
+"collisdeterministic","boolean","NO",NULL
+"protrftypes","ARRAY","YES",NULL
+"default_collate_schema","name","YES",NULL
+"toast_blks_hit","bigint","YES",NULL
+"character_octet_length","integer","YES",NULL
+"vacuum_count","bigint","YES",NULL
+"prosrc","text","NO",NULL
+"amtype","""char""","NO",NULL
+"idx_scan","bigint","YES",NULL
+"heap_tuples_written","bigint","YES",NULL
+"foreign_data_wrapper_name","name","YES",NULL
+"constraint_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"source","text","YES",NULL
+"as_locator","character varying","YES",NULL
+"last_msg_receipt_time","timestamp with time zone","YES",NULL
+"character_set_name","name","YES",NULL
+"grantee","name","YES",NULL
+"domain_schema","name","YES",NULL
+"routine_name","name","YES",NULL
+"column_name","name","YES",NULL
+"result_cast_numeric_precision_radix","integer","YES",NULL
+"relocatable","boolean","YES",NULL
+"attoptions","ARRAY","YES",NULL
+"typalign","""char""","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"view_name","name","YES",NULL
+"rolconnlimit","integer","NO",NULL
+"seqtypid","oid","NO",NULL
+"last_msg_send_time","timestamp with time zone","YES",NULL
+"tag_hk","bytea","NO",NULL
+"constraint_schema","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"posttypeid","integer","YES",NULL
+"foreign_data_wrapper_catalog","name","YES",NULL
+"tag_hk","bytea","NO",NULL
+"start_value","bigint","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"specific_name","name","YES",NULL
+"puballtables","boolean","NO",NULL
+"n_tup_del","bigint","YES",NULL
+"object_name","name","YES",NULL
+"laninline","oid","NO",NULL
+"amhandler","regproc","NO",NULL
+"table_schema","name","YES",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"datid","oid","YES",NULL
+"character_octet_length","integer","YES",NULL
+"domain_catalog","name","YES",NULL
+"hasrules","boolean","YES",NULL
+"interval_precision","integer","YES",NULL
+"rulename","name","NO",NULL
+"oid","oid","NO",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"rngtypid","oid","NO",NULL
+"foreign_data_wrapper_name","name","YES",NULL
+"views","integer","YES",NULL
+"data_type","character varying","YES",NULL
+"spill_count","bigint","YES",NULL
+"partnatts","smallint","NO",NULL
+"schemaname","name","YES",NULL
+"backend_start","timestamp with time zone","YES",NULL
+"udt_name","name","YES",NULL
+"typtype","""char""","NO",NULL
+"wal_write_time","double precision","YES",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"indisexclusion","boolean","NO",NULL
+"relname","name","YES",NULL
+"relid","oid","YES",NULL
+"specific_name","name","YES",NULL
+"character_value","character varying","YES",NULL
+"nspacl","ARRAY","YES",NULL
+"numeric_scale","integer","YES",NULL
+"domain_catalog","name","YES",NULL
+"userepl","boolean","YES",NULL
+"pubowner","oid","NO",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"pubname","name","YES",NULL
+"objoid","oid","NO",NULL
+"routine_catalog","name","YES",NULL
+"n_live_tup","bigint","YES",NULL
+"aggtranstype","oid","NO",NULL
+"pid","integer","YES",NULL
+"conbin","pg_node_tree","YES",NULL
+"score","integer","YES",NULL
+"from_sql","boolean","YES",NULL
+"checksum_failures","bigint","YES",NULL
+"foreign_data_wrapper_name","name","YES",NULL
+"reloptions","ARRAY","YES",NULL
+"fastpath","boolean","YES",NULL
+"relforcerowsecurity","boolean","NO",NULL
+"passwd","text","YES",NULL
+"name","text","YES",NULL
+"identity_minimum","character varying","YES",NULL
+"maptokentype","integer","NO",NULL
+"pronargs","smallint","NO",NULL
+"pid","integer","YES",NULL
+"vote_hk","bytea","NO",NULL
+"table_catalog","name","YES",NULL
+"foreign_table_schema","name","YES",NULL
+"srsubid","oid","NO",NULL
+"flush_lsn","pg_lsn","YES",NULL
+"table_name","name","YES",NULL
+"total_nblocks","bigint","YES",NULL
+"classoid","oid","NO",NULL
+"xact_start","timestamp with time zone","YES",NULL
+"routine_name","name","YES",NULL
+"stanumbers4","ARRAY","YES",NULL
+"routine_schema","name","YES",NULL
+"tablename","name","YES",NULL
+"stanumbers5","ARRAY","YES",NULL
+"table_name","name","YES",NULL
+"udt_name","name","YES",NULL
+"routine_name","name","YES",NULL
+"proallargtypes","ARRAY","YES",NULL
+"objtype","text","YES",NULL
+"stxexprs","pg_node_tree","YES",NULL
+"specific_name","name","YES",NULL
+"ordering_routine_catalog","name","YES",NULL
+"table_schema","name","YES",NULL
+"agginitval","text","YES",NULL
+"foreign_table_schema","name","YES",NULL
+"session_time","double precision","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"gid","text","YES",NULL
+"table_schema","name","YES",NULL
+"grantor","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"tuples_total","bigint","YES",NULL
+"opcname","name","NO",NULL
+"is_self_referencing","character varying","YES",NULL
+"valuntil","timestamp with time zone","YES",NULL
+"oid","oid","NO",NULL
+"character_set_schema","name","YES",NULL
+"option_name","name","YES",NULL
+"hasindexes","boolean","YES",NULL
+"idx_tup_read","bigint","YES",NULL
+"trigger_catalog","name","YES",NULL
+"column_name","name","YES",NULL
+"authorization_identifier","name","YES",NULL
+"most_common_vals","anyarray","YES",NULL
+"scope_name","name","YES",NULL
+"foreign_table_name","name","YES",NULL
+"aggmfinalmodify","""char""","NO",NULL
+"attbyval","boolean","NO",NULL
+"usesysid","oid","YES",NULL
+"temp_bytes","bigint","YES",NULL
+"column_name","name","YES",NULL
+"seq_tup_read","bigint","YES",NULL
+"address","text","YES",NULL
+"usesysid","oid","YES",NULL
+"two_phase","boolean","YES",NULL
+"provolatile","""char""","NO",NULL
+"schemaname","name","YES",NULL
+"wal_sync_time","double precision","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"typcategory","""char""","NO",NULL
+"table_catalog","name","YES",NULL
+"polroles","ARRAY","NO",NULL
+"amoprighttype","oid","NO",NULL
+"tidx_blks_read","bigint","YES",NULL
+"indimmediate","boolean","NO",NULL
+"analyze_count","bigint","YES",NULL
+"rolname","name","YES",NULL
+"post_user_hk","bytea","NO",NULL
+"grantee","name","YES",NULL
+"identity_maximum","character varying","YES",NULL
+"idx_tup_read","bigint","YES",NULL
+"dictnamespace","oid","NO",NULL
+"connamespace","oid","NO",NULL
+"sync_priority","integer","YES",NULL
+"typdefaultbin","pg_node_tree","YES",NULL
+"specific_schema","name","YES",NULL
+"relid","oid","YES",NULL
+"typndims","integer","NO",NULL
+"lanvalidator","oid","NO",NULL
+"seq_tup_read","bigint","YES",NULL
+"result_cast_numeric_precision","integer","YES",NULL
+"last_value","bigint","YES",NULL
+"authorization_identifier","name","YES",NULL
+"oprjoin","regproc","NO",NULL
+"user_defined_type_catalog","name","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"to_sql_specific_catalog","name","YES",NULL
+"character_set_name","name","YES",NULL
+"option_value","character varying","YES",NULL
+"scope_schema","name","YES",NULL
+"numeric_precision","integer","YES",NULL
+"attribute_udt_schema","name","YES",NULL
+"staop4","oid","NO",NULL
+"groname","name","YES",NULL
+"security_type","character varying","YES",NULL
+"oid","oid","NO",NULL
+"opcnamespace","oid","NO",NULL
+"schemaname","name","YES",NULL
+"stxdndistinct","pg_ndistinct","YES",NULL
+"maximum_cardinality","integer","YES",NULL
+"off","bigint","YES",NULL
+"badge_hk","bytea","NO",NULL
+"action_reference_old_row","name","YES",NULL
+"relpartbound","pg_node_tree","YES",NULL
+"typcollation","oid","NO",NULL
+"amproc","regproc","NO",NULL
+"confmatchtype","""char""","NO",NULL
+"parameter_name","name","YES",NULL
+"subslotname","name","YES",NULL
+"objsubid","integer","YES",NULL
+"tablename","name","YES",NULL
+"stacoll5","oid","NO",NULL
+"default_collate_name","name","YES",NULL
+"conowner","oid","NO",NULL
+"relpages","integer","NO",NULL
+"n_distinct","pg_ndistinct","YES",NULL
+"dictowner","oid","NO",NULL
+"post_comment_hk","bytea","NO",NULL
+"castcontext","""char""","NO",NULL
+"oid","oid","NO",NULL
+"oid","oid","NO",NULL
+"amoplefttype","oid","NO",NULL
+"n_tup_upd","bigint","YES",NULL
+"source","character varying","NO",NULL
+"view_name","name","YES",NULL
+"n_tup_ins","bigint","YES",NULL
+"num_dead_tuples","bigint","YES",NULL
+"grantee","name","YES",NULL
+"srvname","name","NO",NULL
+"constraint_type","character varying","YES",NULL
+"is_deterministic","character varying","YES",NULL
+"opfowner","oid","NO",NULL
+"table_schema","name","YES",NULL
+"dtd_identifier","name","YES",NULL
+"result_cast_from_data_type","character varying","YES",NULL
+"constraint_catalog","name","YES",NULL
+"rolpassword","text","YES",NULL
+"blks_hit","bigint","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"conpfeqop","ARRAY","YES",NULL
+"lanpltrusted","boolean","NO",NULL
+"n_tup_ins","bigint","YES",NULL
+"last_altered","timestamp with time zone","YES",NULL
+"ordering_routine_schema","name","YES",NULL
+"classid","oid","NO",NULL
+"datname","name","NO",NULL
+"result_cast_type_udt_name","name","YES",NULL
+"checkpoints_req","bigint","YES",NULL
+"trftype","oid","NO",NULL
+"character_maximum_length","integer","YES",NULL
+"wal_write","bigint","YES",NULL
+"typlen","smallint","NO",NULL
+"scope_schema","name","YES",NULL
+"feature_name","character varying","YES",NULL
+"n_distinct","real","YES",NULL
+"indisunique","boolean","NO",NULL
+"collname","name","NO",NULL
+"n_tup_ins","bigint","YES",NULL
+"options","ARRAY","YES",NULL
+"usename","name","YES",NULL
+"client_addr","inet","YES",NULL
+"max_dynamic_result_sets","integer","YES",NULL
+"cfgowner","oid","NO",NULL
+"passwd","text","YES",NULL
+"self_time","double precision","YES",NULL
+"foreign_data_wrapper_name","name","YES",NULL
+"srvoptions","ARRAY","YES",NULL
+"indexrelid","oid","YES",NULL
+"toast_blks_hit","bigint","YES",NULL
+"constraint_catalog","name","YES",NULL
+"granted","boolean","YES",NULL
+"post_tag_hk","bytea","NO",NULL
+"oid","oid","NO",NULL
+"collation_schema","name","YES",NULL
+"custom_plans","bigint","YES",NULL
+"relhassubclass","boolean","NO",NULL
+"userepl","boolean","YES",NULL
+"specific_schema","name","YES",NULL
+"source","character varying","NO",NULL
+"table_name","name","YES",NULL
+"version","text","YES",NULL
+"atttypmod","integer","NO",NULL
+"routine_name","name","YES",NULL
+"table_schema","name","YES",NULL
+"object_schema","name","YES",NULL
+"constraint_catalog","name","YES",NULL
+"subname","name","YES",NULL
+"local_lsn","pg_lsn","YES",NULL
+"seqmin","bigint","NO",NULL
+"sequence_schema","name","YES",NULL
+"delete_rule","character varying","YES",NULL
+"objoid","oid","NO",NULL
+"specific_name","name","YES",NULL
+"relation","oid","YES",NULL
+"result_cast_char_set_name","name","YES",NULL
+"is_updatable","character varying","YES",NULL
+"udt_name","name","YES",NULL
+"cfgnamespace","oid","NO",NULL
+"is_instead","boolean","NO",NULL
+"tablename","name","YES",NULL
+"default_character_set_schema","name","YES",NULL
+"command","text","YES",NULL
+"pid","integer","YES",NULL
+"loid","oid","NO",NULL
+"heap_blks_scanned","bigint","YES",NULL
+"seq_tup_read","bigint","YES",NULL
+"total_time","double precision","YES",NULL
+"relid","oid","YES",NULL
+"classoid","oid","NO",NULL
+"subsynccommit","text","NO",NULL
+"form_of_use","name","YES",NULL
+"sizing_id","integer","YES",NULL
+"feature_id","character varying","YES",NULL
+"schemaname","name","YES",NULL
+"page","integer","YES",NULL
+"attrelid","oid","NO",NULL
+"parameter_mode","character varying","YES",NULL
+"umuser","oid","NO",NULL
+"specific_catalog","name","YES",NULL
+"remote_lsn","pg_lsn","YES",NULL
+"reltablespace","oid","NO",NULL
+"dependencies","pg_dependencies","YES",NULL
+"object_catalog","name","YES",NULL
+"is_updatable","character varying","YES",NULL
+"attcollation","oid","NO",NULL
+"spcname","name","NO",NULL
+"relid","oid","YES",NULL
+"source_post_hk","bytea","NO",NULL
+"result_cast_collation_name","name","YES",NULL
+"ident","text","YES",NULL
+"rolvaliduntil","timestamp with time zone","YES",NULL
+"waitstart","timestamp with time zone","YES",NULL
+"specific_schema","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"constraint_catalog","name","YES",NULL
+"position_in_unique_constraint","integer","YES",NULL
+"max_value","bigint","YES",NULL
+"n_tup_del","bigint","YES",NULL
+"privilege_type","character varying","YES",NULL
+"description","text","NO",NULL
+"character_set_catalog","name","YES",NULL
+"dbid","oid","NO",NULL
+"grantor","name","YES",NULL
+"blks_hit","bigint","YES",NULL
+"is_grantable","character varying","YES",NULL
+"indexrelname","name","YES",NULL
+"udt_catalog","name","YES",NULL
+"source","character varying","NO",NULL
+"dtd_identifier","name","YES",NULL
+"increment_by","bigint","YES",NULL
+"n_tup_upd","bigint","YES",NULL
+"oprrest","regproc","NO",NULL
+"tgconstrindid","oid","NO",NULL
+"interval_precision","integer","YES",NULL
+"trigger_name","name","YES",NULL
+"numeric_scale","integer","YES",NULL
+"staop3","oid","NO",NULL
+"column_default","character varying","YES",NULL
+"option_value","character varying","YES",NULL
+"oid","oid","NO",NULL
+"relid","oid","YES",NULL
+"identity_cycle","character varying","YES",NULL
+"connamespace","oid","NO",NULL
+"gss_authenticated","boolean","YES",NULL
+"foreign_server_name","name","YES",NULL
+"stainherit","boolean","NO",NULL
+"bountyamount","integer","YES",NULL
+"action_reference_new_table","name","YES",NULL
+"confdeltype","""char""","NO",NULL
+"tidx_blks_read","bigint","YES",NULL
+"datname","name","YES",NULL
+"autoanalyze_count","bigint","YES",NULL
+"oprnamespace","oid","NO",NULL
+"fdwowner","oid","YES",NULL
+"collation_catalog","name","YES",NULL
+"sourcefile","text","YES",NULL
+"character_octet_length","integer","YES",NULL
+"typtypmod","integer","NO",NULL
+"xact_commit","bigint","YES",NULL
+"userdisplayname","character varying","YES",NULL
+"aggtransfn","regproc","NO",NULL
+"latest_end_lsn","pg_lsn","YES",NULL
+"confl_tablespace","bigint","YES",NULL
+"client_hostname","text","YES",NULL
+"min_val","text","YES",NULL
+"authorization_identifier","name","YES",NULL
+"datoid","oid","YES",NULL
+"proowner","oid","NO",NULL
+"heap_blks_total","bigint","YES",NULL
+"polname","name","NO",NULL
+"indpred","pg_node_tree","YES",NULL
+"column_name","name","YES",NULL
+"foreign_server_name","name","YES",NULL
+"heap_blks_vacuumed","bigint","YES",NULL
+"deadlocks","bigint","YES",NULL
+"n_tup_upd","bigint","YES",NULL
+"typmodin","regproc","NO",NULL
+"archived_count","bigint","YES",NULL
+"roname","text","NO",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"oid","oid","NO",NULL
+"aggsortop","oid","NO",NULL
+"character_set_catalog","name","YES",NULL
+"udt_catalog","name","YES",NULL
+"table_schema","name","YES",NULL
+"datetime_precision","integer","YES",NULL
+"tablespaces_total","bigint","YES",NULL
+"adbin","pg_node_tree","NO",NULL
+"prsnamespace","oid","NO",NULL
+"numeric_scale","integer","YES",NULL
+"proparallel","""char""","NO",NULL
+"relname","name","YES",NULL
+"rolbypassrls","boolean","NO",NULL
+"udt_catalog","name","YES",NULL
+"upvotes","integer","YES",NULL
+"oprowner","oid","NO",NULL
+"conislocal","boolean","NO",NULL
+"collation_schema","name","YES",NULL
+"action_reference_new_row","name","YES",NULL
+"analyze_count","bigint","YES",NULL
+"relid","oid","YES",NULL
+"numeric_scale","integer","YES",NULL
+"abbrev","text","YES",NULL
+"routine_schema","name","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"relid","oid","YES",NULL
+"votetypeid","integer","YES",NULL
+"typrelid","oid","NO",NULL
+"object_catalog","name","YES",NULL
+"stanullfrac","real","NO",NULL
+"indisready","boolean","NO",NULL
+"character_set_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"contype","""char""","NO",NULL
+"blks_hit","bigint","YES",NULL
+"datname","name","YES",NULL
+"amprocfamily","oid","NO",NULL
+"setrole","oid","NO",NULL
+"event_manipulation","character varying","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"definition","text","YES",NULL
+"defaclrole","oid","NO",NULL
+"table_schema","name","YES",NULL
+"dattablespace","oid","NO",NULL
+"staop5","oid","NO",NULL
+"blks_read","bigint","YES",NULL
+"indexrelname","name","YES",NULL
+"avg_width","integer","YES",NULL
+"objsubid","integer","NO",NULL
+"schemaname","name","YES",NULL
+"aggfinalmodify","""char""","NO",NULL
+"valuntil","timestamp with time zone","YES",NULL
+"result_cast_numeric_scale","integer","YES",NULL
+"adnum","smallint","NO",NULL
+"prsstart","regproc","NO",NULL
+"temp_files","bigint","YES",NULL
+"grantor","name","YES",NULL
+"is_scrollable","boolean","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"safe_wal_size","bigint","YES",NULL
+"indcheckxmin","boolean","NO",NULL
+"proretset","boolean","NO",NULL
+"auth_method","text","YES",NULL
+"constraint_catalog","name","YES",NULL
+"typdelim","""char""","NO",NULL
+"application_name","text","YES",NULL
+"scope_catalog","name","YES",NULL
+"roleid","oid","NO",NULL
+"pronamespace","oid","NO",NULL
+"slot_type","text","YES",NULL
+"typdefault","text","YES",NULL
+"oid","oid","NO",NULL
+"srvversion","text","YES",NULL
+"privilege_type","character varying","YES",NULL
+"indexrelname","name","YES",NULL
+"comment_hk","bytea","NO",NULL
+"umuser","oid","YES",NULL
+"reference_generation","character varying","YES",NULL
+"aggnumdirectargs","smallint","NO",NULL
+"confl_lock","bigint","YES",NULL
+"oid","oid","NO",NULL
+"numbackends","integer","YES",NULL
+"relid","oid","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"typanalyze","regproc","NO",NULL
+"foreign_server_catalog","name","YES",NULL
+"character_set_catalog","name","YES",NULL
+"is_null_call","character varying","YES",NULL
+"umid","oid","YES",NULL
+"contoencoding","integer","NO",NULL
+"n_live_tup","bigint","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"dictinitoption","text","YES",NULL
+"prsname","name","NO",NULL
+"kinds","ARRAY","YES",NULL
+"collation_catalog","name","YES",NULL
+"wal_records","bigint","YES",NULL
+"oid","oid","NO",NULL
+"indexrelid","oid","NO",NULL
+"rolconnlimit","integer","YES",NULL
+"rngsubdiff","regproc","NO",NULL
+"tgenabled","""char""","NO",NULL
+"refobjid","oid","NO",NULL
+"datname","name","YES",NULL
+"rolpassword","text","YES",NULL
+"scope_schema","name","YES",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"column_name","name","YES",NULL
+"oid","oid","NO",NULL
+"ref_dtd_identifier","name","YES",NULL
+"n_tup_ins","bigint","YES",NULL
+"polrelid","oid","NO",NULL
+"n_tup_upd","bigint","YES",NULL
+"grantor","name","YES",NULL
+"connoinherit","boolean","NO",NULL
+"result_cast_type_udt_catalog","name","YES",NULL
+"staattnum","smallint","NO",NULL
+"opcfamily","oid","NO",NULL
+"is_dst","boolean","YES",NULL
+"table_schema","name","YES",NULL
+"datid","oid","YES",NULL
+"character_set_name","name","YES",NULL
+"character_set_catalog","name","YES",NULL
+"oprname","name","NO",NULL
+"n_tup_hot_upd","bigint","YES",NULL
+"fdwoptions","ARRAY","YES",NULL
+"with_hierarchy","character varying","YES",NULL
+"cluster_index_relid","oid","YES",NULL
+"rolvaliduntil","timestamp with time zone","YES",NULL
+"blks_zeroed","bigint","YES",NULL
+"subconninfo","text","NO",NULL
+"defaclobjtype","""char""","NO",NULL
+"context","text","YES",NULL
+"data_type","character varying","YES",NULL
+"usename","name","YES",NULL
+"trigger_schema","name","YES",NULL
+"received_tli","integer","YES",NULL
+"reloftype","oid","NO",NULL
+"source","character varying","NO",NULL
+"amprocrighttype","oid","NO",NULL
+"datetime_precision","integer","YES",NULL
+"domain_schema","name","YES",NULL
+"stacoll2","oid","NO",NULL
+"principal","text","YES",NULL
+"conname","name","NO",NULL
+"polcmd","""char""","NO",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"table_name","name","YES",NULL
+"typispreferred","boolean","NO",NULL
+"indisclustered","boolean","NO",NULL
+"statistics_owner","name","YES",NULL
+"proname","name","NO",NULL
+"plugin","name","YES",NULL
+"amoppurpose","""char""","NO",NULL
+"character_set_schema","name","YES",NULL
+"character_set_catalog","name","YES",NULL
+"comments","character varying","YES",NULL
+"umoptions","ARRAY","YES",NULL
+"collation_schema","name","YES",NULL
+"extcondition","ARRAY","YES",NULL
+"aggkind","""char""","NO",NULL
+"write_lag","interval","YES",NULL
+"funcid","oid","YES",NULL
+"datname","name","YES",NULL
+"indexrelname","name","YES",NULL
+"lanacl","ARRAY","YES",NULL
+"indexrelid","oid","YES",NULL
+"checksum_last_failure","timestamp with time zone","YES",NULL
+"bits","integer","YES",NULL
+"relid","oid","YES",NULL
+"aggtransspace","integer","NO",NULL
+"adrelid","oid","NO",NULL
+"is_grantable","character varying","YES",NULL
+"catalog_name","name","YES",NULL
+"mode","text","YES",NULL
+"pronargdefaults","smallint","NO",NULL
+"location","character varying","YES",NULL
+"grantor","name","YES",NULL
+"scope_name","name","YES",NULL
+"encrypted","boolean","YES",NULL
+"interval_type","character varying","YES",NULL
+"character_set_catalog","name","YES",NULL
+"scope_catalog","name","YES",NULL
+"n_tup_del","bigint","YES",NULL
+"datid","oid","YES",NULL
+"amproclefttype","oid","NO",NULL
+"ordering_category","character varying","YES",NULL
+"setconfig","ARRAY","YES",NULL
+"post_business_key","integer","NO",NULL
+"unique_constraint_schema","name","YES",NULL
+"stxkind","ARRAY","NO",NULL
+"defaclnamespace","oid","NO",NULL
+"privilege_type","character varying","YES",NULL
+"classoid","oid","NO",NULL
+"objname","text","YES",NULL
+"heap_blks_hit","bigint","YES",NULL
+"interval_precision","integer","YES",NULL
+"foreign_data_wrapper_catalog","name","YES",NULL
+"source_dtd_identifier","name","YES",NULL
+"collation_name","name","YES",NULL
+"interval_type","character varying","YES",NULL
+"n_tup_del","bigint","YES",NULL
+"vacuum_count","bigint","YES",NULL
+"client_port","integer","YES",NULL
+"utc_offset","interval","YES",NULL
+"specific_catalog","name","YES",NULL
+"useconfig","ARRAY","YES",NULL
+"is_derived_reference_attribute","character varying","YES",NULL
+"routine_schema","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"attlen","smallint","NO",NULL
+"stacoll3","oid","NO",NULL
+"spcacl","ARRAY","YES",NULL
+"table_name","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"oid","oid","NO",NULL
+"setting","text","YES",NULL
+"autoanalyze_count","bigint","YES",NULL
+"attalign","""char""","NO",NULL
+"result_cast_char_octet_length","integer","YES",NULL
+"table_name","name","YES",NULL
+"pid","integer","YES",NULL
+"role_name","name","YES",NULL
+"umoptions","ARRAY","YES",NULL
+"sequence_name","name","YES",NULL
+"tidx_blks_hit","bigint","YES",NULL
+"foreign_server_version","character varying","YES",NULL
+"body","text","YES",NULL
+"replay_lag","interval","YES",NULL
+"database","oid","YES",NULL
+"routine_name","name","YES",NULL
+"authorization_identifier","name","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"stxkeys","ARRAY","NO",NULL
+"proisstrict","boolean","NO",NULL
+"wal_status","text","YES",NULL
+"ordinal_position","integer","YES",NULL
+"result_cast_scope_name","name","YES",NULL
+"relid","oid","YES",NULL
+"ordering_form","character varying","YES",NULL
+"specific_name","name","YES",NULL
+"routine_catalog","name","YES",NULL
+"conflicts","bigint","YES",NULL
+"relhasrules","boolean","NO",NULL
+"installed","boolean","YES",NULL
+"level","integer","YES",NULL
+"histogram_bounds","anyarray","YES",NULL
+"conkey","ARRAY","YES",NULL
+"refclassid","oid","NO",NULL
+"aggmfinalextra","boolean","NO",NULL
+"table_name","name","YES",NULL
+"aboutme","character varying","YES",NULL
+"character_set_catalog","name","YES",NULL
+"datacl","ARRAY","YES",NULL
+"attstorage","""char""","NO",NULL
+"sub_feature_id","character varying","YES",NULL
+"constraint_catalog","name","YES",NULL
+"collnamespace","oid","NO",NULL
+"specific_schema","name","YES",NULL
+"pid","integer","YES",NULL
+"tablespace","name","YES",NULL
+"evtfoid","oid","NO",NULL
+"last_failed_wal","text","YES",NULL
+"partitions_total","bigint","YES",NULL
+"nspname","name","YES",NULL
+"fdwoptions","ARRAY","YES",NULL
+"relispartition","boolean","NO",NULL
+"extconfig","ARRAY","YES",NULL
+"most_common_freqs","ARRAY","YES",NULL
+"datdba","oid","NO",NULL
+"provider","text","NO",NULL
+"checkpoint_write_time","double precision","YES",NULL
+"trflang","oid","NO",NULL
+"comment_hk","bytea","NO",NULL
+"parent","text","YES",NULL
+"relid","oid","YES",NULL
+"udt_catalog","name","YES",NULL
+"event_object_column","name","YES",NULL
+"reltuples","real","NO",NULL
+"superuser","boolean","YES",NULL
+"vote_hk","bytea","NO",NULL
+"specific_name","name","YES",NULL
+"last_msg_send_time","timestamp with time zone","YES",NULL
+"routine_catalog","name","YES",NULL
+"vartype","text","YES",NULL
+"substream","boolean","NO",NULL
+"heap_tuples_scanned","bigint","YES",NULL
+"constraint_name","name","YES",NULL
+"foreign_server_name","name","YES",NULL
+"roles","ARRAY","YES",NULL
+"relname","name","YES",NULL
+"relid","oid","YES",NULL
+"library_name","character varying","YES",NULL
+"collection_type_identifier","name","YES",NULL
+"pubupdate","boolean","NO",NULL
+"max_dead_tuples","bigint","YES",NULL
+"is_grantable","character varying","YES",NULL
+"domain_name","name","YES",NULL
+"umserver","oid","NO",NULL
+"seq_tup_read","bigint","YES",NULL
+"udt_catalog","name","YES",NULL
+"data_type","character varying","YES",NULL
+"collation_catalog","name","YES",NULL
+"external_id","text","YES",NULL
+"relid","oid","YES",NULL
+"relacl","ARRAY","YES",NULL
+"grantee","name","YES",NULL
+"column_name","name","YES",NULL
+"attislocal","boolean","NO",NULL
+"spcowner","oid","NO",NULL
+"target_post_hk","bytea","NO",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"parameter_style","character varying","YES",NULL
+"seq_tup_read","bigint","YES",NULL
+"trffromsql","regproc","NO",NULL
+"prorettype","oid","NO",NULL
+"objsubid","integer","NO",NULL
+"checkpoint_sync_time","double precision","YES",NULL
+"relallvisible","integer","NO",NULL
+"routine_name","name","YES",NULL
+"tmpllexize","regproc","NO",NULL
+"idx_blks_read","bigint","YES",NULL
+"cache_size","bigint","YES",NULL
+"encoding","integer","NO",NULL
+"oid","oid","NO",NULL
+"initially_deferred","character varying","YES",NULL
+"tgisinternal","boolean","NO",NULL
+"result_cast_interval_precision","integer","YES",NULL
+"confupdtype","""char""","NO",NULL
+"aggmtranstype","oid","NO",NULL
+"relid","oid","YES",NULL
+"action_reference_old_table","name","YES",NULL
+"rolreplication","boolean","YES",NULL
+"rolcreaterole","boolean","NO",NULL
+"blk_read_time","double precision","YES",NULL
+"badge_hk","bytea","NO",NULL
+"staop2","oid","NO",NULL
+"cfgname","name","NO",NULL
+"exprs","ARRAY","YES",NULL
+"tableowner","name","YES",NULL
+"toast_blks_read","bigint","YES",NULL
+"oprcode","regproc","NO",NULL
+"numeric_precision_radix","integer","YES",NULL
+"collowner","oid","NO",NULL
+"name","text","YES",NULL
+"udt_name","name","YES",NULL
+"character_set_schema","name","YES",NULL
+"partclass","ARRAY","NO",NULL
+"stream_count","bigint","YES",NULL
+"sub_feature_name","character varying","YES",NULL
+"domain_catalog","name","YES",NULL
+"character_set_name","name","YES",NULL
+"schemaname","name","YES",NULL
+"dependent_column","name","YES",NULL
+"name","text","YES",NULL
+"constraint_schema","name","YES",NULL
+"transactionid","xid","YES",NULL
+"cmd","text","YES",NULL
+"profileimageurl","character varying","YES",NULL
+"collversion","text","YES",NULL
+"idx_scan","bigint","YES",NULL
+"data_type","regtype","YES",NULL
+"datlastsysoid","oid","NO",NULL
+"grosysid","oid","YES",NULL
+"buffers_alloc","bigint","YES",NULL
+"stxrelid","oid","NO",NULL
+"prepare_time","timestamp with time zone","YES",NULL
+"inhseqno","integer","NO",NULL
+"object_schema","name","YES",NULL
+"pubinsert","boolean","NO",NULL
+"tablename","name","YES",NULL
+"typmodout","regproc","NO",NULL
+"stxoid","oid","NO",NULL
+"data_type","character varying","YES",NULL
+"source","character varying","NO",NULL
+"ext_stats_total","bigint","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"user_defined_type_schema","name","YES",NULL
+"stavalues3","anyarray","YES",NULL
+"heap_blks_hit","bigint","YES",NULL
+"maximum_value","character varying","YES",NULL
+"table_catalog","name","YES",NULL
+"routine_schema","name","YES",NULL
+"idx_scan","bigint","YES",NULL
+"constraint_schema","name","YES",NULL
+"domain_default","character varying","YES",NULL
+"relid","oid","YES",NULL
+"stats_reset","timestamp with time zone","YES",NULL
+"rolcreatedb","boolean","NO",NULL
+"usecreatedb","boolean","YES",NULL
+"prosqlbody","pg_node_tree","YES",NULL
+"proacl","ARRAY","YES",NULL
+"grantor","name","YES",NULL
+"oid","oid","NO",NULL
+"backend_xmin","xid","YES",NULL
+"tgnewtable","name","YES",NULL
+"fdwname","name","NO",NULL
+"extname","name","NO",NULL
+"aggdeserialfn","regproc","NO",NULL
+"tup_returned","bigint","YES",NULL
+"partattrs","ARRAY","NO",NULL
+"active_pid","integer","YES",NULL
+"stream_txns","bigint","YES",NULL
+"provariadic","oid","NO",NULL
+"privilege_type","character varying","YES",NULL
+"typarray","oid","NO",NULL
+"indkey","ARRAY","NO",NULL
+"comment","text","YES",NULL
+"post_hk","bytea","NO",NULL
+"action_order","integer","YES",NULL
+"routine_body","character varying","YES",NULL
+"proconfig","ARRAY","YES",NULL
+"applied","boolean","YES",NULL
+"trigger_schema","name","YES",NULL
+"tginitdeferred","boolean","NO",NULL
+"conrelid","oid","NO",NULL
+"table_schema","name","YES",NULL
+"stavalues2","anyarray","YES",NULL
+"collation_catalog","name","YES",NULL
+"most_common_freqs","ARRAY","YES",NULL
+"routine_schema","name","YES",NULL
+"object_catalog","name","YES",NULL
+"truncates","bigint","YES",NULL
+"foreign_server_type","character varying","YES",NULL
+"parameter_types","ARRAY","YES",NULL
+"inhdetachpending","boolean","NO",NULL
+"subdbid","oid","NO",NULL
+"viewcount","integer","YES",NULL
+"sequenceowner","name","YES",NULL
+"stavalues4","anyarray","YES",NULL
+"bytes_total","bigint","YES",NULL
+"numeric_precision","integer","YES",NULL
+"table_catalog","name","YES",NULL
+"foreign_table_catalog","name","YES",NULL
+"oprleft","oid","NO",NULL
+"transaction","xid","YES",NULL
+"table_catalog","name","YES",NULL
+"grantee","name","YES",NULL
+"stakind2","smallint","NO",NULL
+"refobjid","oid","NO",NULL
+"column_name","name","YES",NULL
+"udt_name","name","YES",NULL
+"collation_name","name","YES",NULL
+"attribute_default","character varying","YES",NULL
+"privilege_type","character varying","YES",NULL
+"installed_version","text","YES",NULL
+"datetime_precision","integer","YES",NULL
+"specific_name","name","YES",NULL
+"boot_val","text","YES",NULL
+"schemaname","name","YES",NULL
+"rolsuper","boolean","YES",NULL
+"sender_host","text","YES",NULL
+"routine_definition","character varying","YES",NULL
+"post_hk","bytea","NO",NULL
+"grantor","name","YES",NULL
+"created","timestamp with time zone","YES",NULL
+"user_defined_type_name","name","YES",NULL
+"evtenabled","""char""","NO",NULL
+"last_failed_time","timestamp with time zone","YES",NULL
+"prslextype","regproc","NO",NULL
+"tablename","name","YES",NULL
+"usesuper","boolean","YES",NULL
+"last_analyze","timestamp with time zone","YES",NULL
+"datname","name","YES",NULL
+"comments","character varying","YES",NULL
+"pid","integer","YES",NULL
+"collation_catalog","name","YES",NULL
+"leader_pid","integer","YES",NULL
+"seq_scan","bigint","YES",NULL
+"user_name","ARRAY","YES",NULL
+"expr","text","YES",NULL
+"domain_schema","name","YES",NULL
+"amopstrategy","smallint","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"last_vacuum","timestamp with time zone","YES",NULL
+"table_schema","name","YES",NULL
+"relid","oid","YES",NULL
+"collation_name","name","YES",NULL
+"idx_blks_read","bigint","YES",NULL
+"typbasetype","oid","NO",NULL
+"relname","name","YES",NULL
+"tgoldtable","name","YES",NULL
+"schemaname","name","YES",NULL
+"typnotnull","boolean","NO",NULL
+"object_name","name","YES",NULL
+"prsheadline","regproc","NO",NULL
+"opfname","name","NO",NULL
+"tgrelid","oid","NO",NULL
+"confl_deadlock","bigint","YES",NULL
+"owneruserid","integer","YES",NULL
+"wait_event","text","YES",NULL
+"rngsubtype","oid","NO",NULL
+"foreign_data_wrapper_catalog","name","YES",NULL
+"seq_scan","bigint","YES",NULL
+"client_dn","text","YES",NULL
+"specific_catalog","name","YES",NULL
+"table_catalog","name","YES",NULL
+"interval_precision","integer","YES",NULL
+"casttarget","oid","NO",NULL
+"pid","integer","YES",NULL
+"domain_schema","name","YES",NULL
+"oid","oid","NO",NULL
+"is_grantable","character varying","YES",NULL
+"specific_schema","name","YES",NULL
+"stakind1","smallint","NO",NULL
+"source","character varying","NO",NULL
+"schemaname","name","YES",NULL
+"proargnames","ARRAY","YES",NULL
+"most_common_freqs","ARRAY","YES",NULL
+"srrelid","oid","NO",NULL
+"oprcanhash","boolean","NO",NULL
+"objnamespace","oid","YES",NULL
+"idle_in_transaction_time","double precision","YES",NULL
+"objoid","oid","NO",NULL
+"interval_type","character varying","YES",NULL
+"bytes_processed","bigint","YES",NULL
+"unique_constraint_name","name","YES",NULL
+"tablespace","name","YES",NULL
+"n_dead_tup","bigint","YES",NULL
+"setting","text","YES",NULL
+"mapcfg","oid","NO",NULL
+"idx_blks_read","bigint","YES",NULL
+"datid","oid","YES",NULL
+"flushes","bigint","YES",NULL
+"favoritecount","integer","YES",NULL
+"foreign_table_catalog","name","YES",NULL
+"attnum","smallint","NO",NULL
+"schemaname","name","YES",NULL
+"classoid","oid","NO",NULL
+"convalidated","boolean","NO",NULL
+"oid","oid","YES",NULL
+"status","text","YES",NULL
+"collation_catalog","name","YES",NULL
+"event_object_table","name","YES",NULL
+"routine_name","name","YES",NULL
+"type_udt_name","name","YES",NULL
+"castfunc","oid","NO",NULL
+"srvowner","name","YES",NULL
+"state_change","timestamp with time zone","YES",NULL
+"last_autoanalyze","timestamp with time zone","YES",NULL
+"active","boolean","YES",NULL
+"prorows","real","NO",NULL
+"stanumbers2","ARRAY","YES",NULL
+"new_savepoint_level","character varying","YES",NULL
+"data_type","character varying","YES",NULL
+"table_name","name","YES",NULL
+"blks_hit","bigint","YES",NULL
+"relname","name","YES",NULL
+"dicttemplate","oid","NO",NULL
+"aggserialfn","regproc","NO",NULL
+"conforencoding","integer","NO",NULL
+"n_mod_since_analyze","bigint","YES",NULL
+"lockers_done","bigint","YES",NULL
+"object_type","character varying","YES",NULL
+"opfnamespace","oid","NO",NULL
+"refobjsubid","integer","NO",NULL
+"blks_read","bigint","YES",NULL
+"idx_blks_hit","bigint","YES",NULL
+"foreign_server_name","name","YES",NULL
+"is_trigger_deletable","character varying","YES",NULL
+"abbrev","text","YES",NULL
+"conffeqop","ARRAY","YES",NULL
+"source","character varying","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"udt_catalog","name","YES",NULL
+"schemaname","name","YES",NULL
+"tidx_blks_hit","bigint","YES",NULL
+"database","ARRAY","YES",NULL
+"relname","name","YES",NULL
+"pid","integer","YES",NULL
+"tag_business_key","integer","NO",NULL
+"opcowner","oid","NO",NULL
+"sample_blks_scanned","bigint","YES",NULL
+"seqrelid","oid","NO",NULL
+"result_cast_char_set_schema","name","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"table_name","name","YES",NULL
+"matviewowner","name","YES",NULL
+"badge_hk","bytea","NO",NULL
+"role_name","name","YES",NULL
+"ftoptions","ARRAY","YES",NULL
+"classid","oid","YES",NULL
+"domain_name","name","YES",NULL
+"funcid","oid","YES",NULL
+"udt_schema","name","YES",NULL
+"typoutput","regproc","NO",NULL
+"specific_catalog","name","YES",NULL
+"udt_name","name","YES",NULL
+"relowner","oid","NO",NULL
+"indclass","ARRAY","NO",NULL
+"udt_schema","name","YES",NULL
+"count","integer","YES",NULL
+"unit","text","YES",NULL
+"scope_catalog","name","YES",NULL
+"user_vote_hk","bytea","NO",NULL
+"datname","name","YES",NULL
+"identity_increment","character varying","YES",NULL
+"attribute_udt_name","name","YES",NULL
+"oid","oid","NO",NULL
+"tablename","name","YES",NULL
+"free_chunks","bigint","YES",NULL
+"description","text","NO",NULL
+"stxdexpr","ARRAY","YES",NULL
+"receive_start_lsn","pg_lsn","YES",NULL
+"table_schema","name","YES",NULL
+"source","character varying","NO",NULL
+"relisshared","boolean","NO",NULL
+"table_catalog","name","YES",NULL
+"sender_port","integer","YES",NULL
+"srsubstate","""char""","NO",NULL
+"null_frac","real","YES",NULL
+"sequence_name","name","YES",NULL
+"foreign_data_wrapper_language","character varying","YES",NULL
+"reset_val","text","YES",NULL
+"table_name","name","YES",NULL
+"idx_scan","bigint","YES",NULL
+"table_catalog","name","YES",NULL
+"answercount","integer","YES",NULL
+"tgparentid","oid","NO",NULL
+"action_statement","character varying","YES",NULL
+"creation_time","timestamp with time zone","YES",NULL
+"rngmultitypid","oid","NO",NULL
+"slot_name","text","YES",NULL
+"conindid","oid","NO",NULL
+"partrelid","oid","NO",NULL
+"oid","oid","NO",NULL
+"polqual","pg_node_tree","YES",NULL
+"result_cast_as_locator","character varying","YES",NULL
+"castsource","oid","NO",NULL
+"sql_path","character varying","YES",NULL
+"domain_name","name","YES",NULL
+"identity_start","character varying","YES",NULL
+"numeric_precision_radix","integer","YES",NULL
+"table_name","name","YES",NULL
+"idx_scan","bigint","YES",NULL
+"tuples_excluded","bigint","YES",NULL
+"srvtype","text","YES",NULL
+"collation_name","name","YES",NULL
+"is_implicitly_invocable","character varying","YES",NULL
+"oprresult","oid","NO",NULL
+"domain_name","name","YES",NULL
+"vote_business_key","integer","NO",NULL
+"displayname","character varying","YES",NULL
+"stakind4","smallint","NO",NULL
+"last_autovacuum","timestamp with time zone","YES",NULL
+"schemaname","name","YES",NULL
+"tgnargs","smallint","NO",NULL
+"numeric_scale","integer","YES",NULL
+"relid","oid","YES",NULL
+"relhastriggers","boolean","NO",NULL
+"specific_catalog","name","YES",NULL
+"relname","name","YES",NULL
+"opfmethod","oid","NO",NULL
+"is_udt_dependent","character varying","YES",NULL
+"self_referencing_column_name","name","YES",NULL
+"rowsecurity","boolean","YES",NULL
+"object_schema","name","YES",NULL
+"is_grantable","character varying","YES",NULL
+"start_value","character varying","YES",NULL
+"idx_blks_read","bigint","YES",NULL
+"pubviaroot","boolean","NO",NULL
+"ftserver","oid","NO",NULL
+"srsublsn","pg_lsn","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"database","name","YES",NULL
+"option_name","name","YES",NULL
+"scope_schema","name","YES",NULL
+"ordinal_position","integer","YES",NULL
+"sourceline","integer","YES",NULL
+"grantee","name","YES",NULL
+"latest_end_lsn","pg_lsn","YES",NULL
+"scope_catalog","name","YES",NULL
+"post_hk","bytea","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"result_cast_char_max_length","integer","YES",NULL
+"foreign_server_catalog","name","YES",NULL
+"aggminvtransfn","regproc","NO",NULL
+"receive_start_tli","integer","YES",NULL
+"atthasdef","boolean","NO",NULL
+"requires","ARRAY","YES",NULL
+"specific_catalog","name","YES",NULL
+"tup_inserted","bigint","YES",NULL
+"catalog_xmin","xid","YES",NULL
+"idx_tup_fetch","bigint","YES",NULL
+"prokind","""char""","NO",NULL
+"foreign_server_version","character varying","YES",NULL
+"relid","oid","YES",NULL
+"view_catalog","name","YES",NULL
+"blocks_done","bigint","YES",NULL
+"matviewname","name","YES",NULL
+"tagname","character varying","YES",NULL
+"category","text","YES",NULL
+"client_addr","inet","YES",NULL
+"heap_blks_read","bigint","YES",NULL
+"implementation_info_id","character varying","YES",NULL
+"name","text","YES",NULL
+"last_analyze","timestamp with time zone","YES",NULL
+"reputation","integer","YES",NULL
+"total_bytes","bigint","YES",NULL
+"data_type","character varying","YES",NULL
+"tgargs","bytea","NO",NULL
+"collcollate","name","NO",NULL
+"type","text","YES",NULL
+"schemaname","name","YES",NULL
+"datname","name","YES",NULL
+"oid","oid","NO",NULL
+"most_common_elem_freqs","ARRAY","YES",NULL
+"datallowconn","boolean","NO",NULL
+"toast_blks_hit","bigint","YES",NULL
+"backend_xid","xid","YES",NULL
+"emailhash","character varying","YES",NULL
+"module_schema","name","YES",NULL
+"buffers_backend","bigint","YES",NULL
+"table_catalog","name","YES",NULL
+"numeric_precision","integer","YES",NULL
+"table_name","name","YES",NULL
+"table_schema","name","YES",NULL
+"datetime_precision","integer","YES",NULL
+"rngcollation","oid","NO",NULL
+"blocks_total","bigint","YES",NULL
+"child_tables_total","bigint","YES",NULL
+"attinhcount","integer","NO",NULL
+"schemaname","name","YES",NULL
+"tablespaces_streamed","bigint","YES",NULL
+"tgname","name","NO",NULL
+"table_name","name","YES",NULL
+"default_character_set_name","name","YES",NULL
+"index_relid","oid","YES",NULL
+"fdwowner","oid","NO",NULL
+"ev_enabled","""char""","NO",NULL
+"extowner","oid","NO",NULL
+"check_option","character varying","YES",NULL
+"load_date","timestamp without time zone","NO",NULL
+"privilege_type","character varying","YES",NULL
+"rolcreaterole","boolean","YES",NULL
+"idx_scan","bigint","YES",NULL
+"seq_scan","bigint","YES",NULL
+"is_user_defined_cast","character varying","YES",NULL
+"datistemplate","boolean","NO",NULL
+"maxwritten_clean","bigint","YES",NULL
+"comment_hk","bytea","NO",NULL
+"numeric_precision_radix","integer","YES",NULL
+"collencoding","integer","NO",NULL
+"attidentity","""char""","NO",NULL
+"constraint_name","name","YES",NULL
+"blks_hit","bigint","YES",NULL
+"self_time","double precision","YES",NULL
+"objsubid","smallint","YES",NULL
+"comments","character varying","YES",NULL
+"last_vacuum","timestamp with time zone","YES",NULL
+"oid","oid","NO",NULL
+"sent_lsn","pg_lsn","YES",NULL
+"view_catalog","name","YES",NULL
+"usesysid","oid","YES",NULL
+"statistics_name","name","YES",NULL
+"interval_type","character varying","YES",NULL
+"default_collate_catalog","name","YES",NULL
+"grolist","ARRAY","YES",NULL
+"is_result","character varying","YES",NULL
+"relreplident","""char""","NO",NULL
+"subowner","oid","NO",NULL
+"inhparent","oid","NO",NULL
+"statement","text","YES",NULL
+"stxname","name","NO",NULL
+"rulename","name","YES",NULL
+"foreign_server_type","character varying","YES",NULL
+"relispopulated","boolean","NO",NULL
+"idx_tup_read","bigint","YES",NULL
+"schema","name","YES",NULL
+"option_value","character varying","YES",NULL
+"foreign_server_name","name","YES",NULL
+"conexclop","ARRAY","YES",NULL
+"event_object_catalog","name","YES",NULL
+"user_defined_type_name","name","YES",NULL
+"n_dead_tup","bigint","YES",NULL
+"scope_name","name","YES",NULL
+"initprivs","ARRAY","NO",NULL
+"constraint_name","name","YES",NULL
+"last_msg_receipt_time","timestamp with time zone","YES",NULL
+"objoid","oid","YES",NULL
+"stanumbers3","ARRAY","YES",NULL
+"collation_schema","name","YES",NULL
+"opckeytype","oid","NO",NULL
+"numeric_precision","integer","YES",NULL
+"character_maximum_length","integer","YES",NULL
+"user_badge_hk","bytea","NO",NULL
+"indexdef","text","YES",NULL
+"table_schema","name","YES",NULL
+"query_start","timestamp with time zone","YES",NULL
+"numeric_scale","integer","YES",NULL
+"write_lsn","pg_lsn","YES",NULL
+"hastriggers","boolean","YES",NULL
+"statistics_schemaname","name","YES",NULL
+"reply_time","timestamp with time zone","YES",NULL
+"udt_schema","name","YES",NULL
+"user_hk","bytea","NO",NULL
+"most_common_elems","anyarray","YES",NULL
+"is_typed","character varying","YES",NULL
+"lanplcallfoid","oid","NO",NULL
+"foreign_table_catalog","name","YES",NULL
+"specific_catalog","name","YES",NULL
+"datid","oid","YES",NULL
+"backend_xmin","xid","YES",NULL
+"n_mod_since_analyze","bigint","YES",NULL
+"default_version","text","YES",NULL
+"oid","oid","NO",NULL
+"load_date","timestamp without time zone","NO",NULL
+"oid","oid","NO",NULL
+"result_cast_collation_schema","name","YES",NULL
+"autovacuum_count","bigint","YES",NULL
+"umoptions","ARRAY","YES",NULL
+"relname","name","YES",NULL
+"amopsortfamily","oid","NO",NULL
+"relkind","""char""","NO",NULL
+"indisprimary","boolean","NO",NULL
+"domain_default","character varying","YES",NULL
+"wal_sync","bigint","YES",NULL
+"proargdefaults","pg_node_tree","YES",NULL
+"typbyval","boolean","NO",NULL
+"polwithcheck","pg_node_tree","YES",NULL
+"most_common_base_freqs","ARRAY","YES",NULL
+"rolinherit","boolean","YES",NULL
+"last_autoanalyze","timestamp with time zone","YES",NULL
+"sessions","bigint","YES",NULL
+"user_hk","bytea","NO",NULL
+"fdwhandler","oid","NO",NULL
+"extnamespace","oid","NO",NULL
+"attfdwoptions","ARRAY","YES",NULL
+"character_set_catalog","name","YES",NULL
+"correlation","real","YES",NULL
+"commit_action","character varying","YES",NULL
+"attmissingval","anyarray","YES",NULL
+"total_time","double precision","YES",NULL
+"table_catalog","name","YES",NULL
+"udt_schema","name","YES",NULL
+"usebypassrls","boolean","YES",NULL
+"collation_catalog","name","YES",NULL
+"table_catalog","name","YES",NULL
+"seqmax","bigint","NO",NULL
+"foreign_server_catalog","name","YES",NULL
+"user_defined_type_category","character varying","YES",NULL
+"free_bytes","bigint","YES",NULL
+"option_name","name","YES",NULL
+"trigger_name","name","YES",NULL
+"grantee","name","YES",NULL
+"oid","oid","NO",NULL
+"grantee","name","YES",NULL
+"n_ins_since_vacuum","bigint","YES",NULL
+"definition","text","YES",NULL
+"routine_catalog","name","YES",NULL
+"result_cast_maximum_cardinality","integer","YES",NULL
+"subname","name","NO",NULL
+"stxnamespace","oid","NO",NULL
+"numeric_precision","integer","YES",NULL
+"sequencename","name","YES",NULL

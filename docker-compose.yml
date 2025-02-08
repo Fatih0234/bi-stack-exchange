@@ -1,0 +1,90 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+      - ./stack-exchange-data:/app/stack-exchange-data
+    environment:
+      - STACK_USER=${STACK_USER}
+      - STACK_PASSWORD=${STACK_PASSWORD}
+      - STACK_NAME=${STACK_NAME}
+      - STACK_PORT=${STACK_PORT}
+      - STACK_URL=postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: python -m etl.etl
+
+  analytics:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    environment:
+      - STACK_USER=${STACK_USER}
+      - STACK_PASSWORD=${STACK_PASSWORD}
+      - STACK_NAME=${STACK_NAME}
+      - STACK_PORT=${STACK_PORT}
+      - STACK_URL=postgres
+    depends_on:
+      - etl
+    command: python -m analytics.run_analytics
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./:/app
+    environment:
+      - STACK_USER=${STACK_USER}
+      - STACK_PASSWORD=${STACK_PASSWORD}
+      - STACK_NAME=${STACK_NAME}
+      - STACK_PORT=${STACK_PORT}
+      - STACK_URL=${STACK_URL}
+    depends_on:
+      - analytics
+    command: streamlit run streamlit_app.py
+
+  metabase:
+    image: metabase/metabase:latest
+    platform: linux/amd64
+    ports:
+      - "3000:3000"
+    environment:
+      - MB_DB_TYPE=postgres
+      - MB_DB_DBNAME=stack_db
+      - MB_DB_PORT=5432
+      - MB_DB_USER=stack_db
+      - MB_DB_PASS=24584040
+      - MB_DB_HOST=postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

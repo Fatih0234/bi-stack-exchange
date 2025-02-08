@@ -1,0 +1,31 @@
+# Ignore everything except the necessary files
+*
+!*.py
+!requirements.txt
+!database_management.py
+!etl.py
+!file_handler.py
+!main.py
+!config.ini
+!.env
+!stack-exchange-data/
+
+# Specific exceptions for stack-exchange-data (allow only the directory, not contents)
+stack-exchange-data/*
+!stack-exchange-data/.gitkeep
+
+#Ignore
+__pycache__/
+venv/
+
+# Documentation/Project Files
+*.pdf
+README.md
+
+# Python build products
+build/
+dist/
+sdist
+
+# OS generated files
+.DS_Store
