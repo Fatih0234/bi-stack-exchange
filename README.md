@@ -14,6 +14,43 @@ This project implements a full-scale analytics solution with:
 ![Metabase Dashboard](dashboard.jpg)
 *Metabase dashboard showing 3 key performance indicators and 2 business questions. A more comprehensive set of analytics is available through the Streamlit dashboard.*
 
+## Project Components
+
+### Core Folders
+1. **etl/** - Extract, Transform, Load operations
+   - `etl.py`: Implements the Data Vault ETL pipeline for Stack Exchange data
+   - `file_handler.py`: Manages CSV file operations and data preprocessing
+   - `database_management.py`: Handles database connections and schema management
+   - `__init__.py`: Package initialization
+
+2. **analytics/** - Data Analysis and Processing
+   - `analytics_utilities.py`: Core analytics functions and SQL queries
+   - `run_analytics.py`: Orchestrates the analytics processing pipeline
+   - `__init__.py`: Package initialization
+
+3. **postgres/init/** - Database Initialization
+   - `01-init.sh`: Database initialization script for PostgreSQL setup
+
+4. **stack-exchange-data/** - Data Directory
+   - Storage for Stack Exchange CSV files (badges, comments, posts, etc.)
+
+### Key Files
+1. **Configuration Files**
+   - `docker-compose.yml`: Defines and configures all services (PostgreSQL, Metabase, Streamlit)
+   - `Dockerfile`: Container configuration for the Python application
+   - `.env`: Environment variables for database credentials
+   - `config.ini`: Application configuration settings
+   - `requirements.txt`: Python package dependencies
+
+2. **Application Files**
+   - `streamlit_app.py`: Interactive dashboard implementation
+   - `main.py`: Application entry point
+   - `README.md`: Project documentation and setup guide
+
+3. **Data Files**
+   - `database_structure.csv`: Database schema documentation
+   - `dashboard.jpg`: Screenshot of Metabase dashboard
+
 ### Key Features
 - **Data Vault Implementation**: Robust and scalable data modeling
 - **Dual Visualization Platforms**:
