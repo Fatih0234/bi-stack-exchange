@@ -55,7 +55,10 @@ Before starting, ensure you have:
    - For Linux: Docker Engine and Docker Compose
 
 2. **Stack Exchange Data Files**
-   Required files in `stack-exchange-data/` directory:
+   Required files can be downloaded from:
+   [Stack Exchange Data Files](https://cloudstorage.elearning.uni-oldenburg.de/s/ysmCtZCm3zDYb4r)
+
+   After downloading, place the following files in the `stack-exchange-data/` directory:
    - badges.csv
    - comments.csv
    - posts.csv
