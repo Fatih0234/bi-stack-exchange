@@ -31,6 +31,10 @@ ENV/
 *.swp
 *.swo
 
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
 # Docker
 postgres_data/
 

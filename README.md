@@ -68,18 +68,30 @@ This project implements a full-scale analytics solution with:
 
 ```
 .
-├── etl/
-│   ├── etl.py              # ETL process implementation
-│   ├── file_handler.py     # File operations handler
-│   └── database_management.py  # Database schema and operations
 ├── analytics/
+│   ├── __init__.py         # Package initialization
 │   ├── analytics_utilities.py  # Analytics functions and database queries
-│   └── run_analytics.py     # Processes data for visualizations
-├── streamlit_app.py        # Interactive web dashboard
-├── docker-compose.yml      # Docker services configuration
-├── Dockerfile             # Application container definition
-├── requirements.txt       # Python dependencies
-└── README.md             # Project documentation
+│   └── run_analytics.py    # Processes data for visualizations
+├── etl/
+│   ├── __init__.py         # Package initialization
+│   ├── database_management.py  # Database schema and operations
+│   ├── etl.py              # ETL process implementation
+│   └── file_handler.py     # File operations handler
+├── postgres/
+│   └── init/
+│       └── 01-init.sh      # Database initialization script
+├── .dockerignore           # Docker build exclusions
+├── .gitignore             # Git exclusions
+├── .python-version        # Python version specification
+├── Dockerfile             # Container configuration
+├── README.md              # Project documentation
+├── config.ini            # Application configuration
+├── dashboard.jpg         # Dashboard screenshot
+├── database_structure.csv # Database schema documentation
+├── docker-compose.yml    # Services configuration
+├── main.py              # Application entry point
+├── requirements.txt     # Python dependencies
+└── streamlit_app.py     # Interactive dashboard
 ```
 
 ## Prerequisites
